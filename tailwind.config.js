@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'kanit-black':['kanit-black', 'serif']
+        'kanit-black':['kanit-black', 'serif'],
+        'Roboto-slab':['kanit-black', 'serif']
       }
     },
   },
