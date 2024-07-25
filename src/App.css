@@ -1,11 +1,3 @@
-:root{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background: #223254;
-  background: radial-gradient(at center, #1d2a47, #181324);
-  background-attachment: fixed;
-}
-
 @font-face {
   font-family: 'Kanit-black';
   src: url(./assets/fonts/Kanit-Medium.ttf);
@@ -14,4 +6,39 @@
 @font-face {
   font-family: 'Roboto-slab';
   src: url(./assets/fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+:root{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #223254;
+  background: radial-gradient(at center, #1d2a47, #181324);
+  background-attachment: fixed;
+}
+
+#heroArrow{
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+#navComp{
+  animation: shade linear both ;
+  animation-timeline: scroll(root block);
+  animation-range: 0 700px;
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+}
+
+@keyframes shade {
+  to{
+    background: rgba(8, 8, 8, 0.534);
+    backdrop-filter: blur(5px);
+  }
 }
