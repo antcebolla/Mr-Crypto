@@ -1,8 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Currencies from './components/Currencies'
+import News from './components/News'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Nav/>
       <Hero/>
       <Currencies/>
+      <News/>
     </>
   )
 }
