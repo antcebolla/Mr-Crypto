@@ -6,7 +6,7 @@ import Reddit from "../assets/Reddit"
 function Nav() {
   return (
     <>
-      <nav  id="navComp" className="w-full z-10 fixed font-kanit-black flex flex-wrap justify-between pt-6 pb-2 px-4 items-center gap-x-7 ">
+      <nav  id="navComp" className="w-full z-10 fixed font-kanit-black flex flex-wrap justify-between pt-6 pb-2 px-4 items-center gap-x-7 max-w-[100vw]">
         <div className="flex items-center text-white w-full sm:w-auto justify-center mb-7 sm:mb-0">
           <Logo/>
           <h1 className="font-kanit-black text-3xl">Mr.Crypto</h1>

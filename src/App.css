@@ -15,7 +15,7 @@
   background-attachment: fixed;
 }
 
-#heroArrow{
+#heroArrow, .animated{
   animation-name: bounce;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;

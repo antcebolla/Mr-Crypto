@@ -7,8 +7,8 @@ function NewsCard({title, photo, tags, newsLink}) {
                 <h1 className="text-white text-md sm:text-2xl mt-2 mb-1">{title}</h1>
                 <div className="flex flex-wrap gap-2">
                     <p className="bg-blue-950 py-1 px-4 rounded-xl text-white">{tags[0]}</p>
-                    <p className="bg-blue-950 py-1 px-4 rounded-xl text-white">{tags[1]}</p>
-                    <p className="bg-blue-950 py-1 px-4 rounded-xl text-white">{tags[2]}</p>
+                    <p className="bg-blue-950 py-1 px-4 rounded-xl text-white hidden md:inline-block">{tags[1]}</p>
+                    <p className="bg-blue-950 py-1 px-4 rounded-xl text-white hidden md:inline-block">{tags[2]}</p>
                     <p className="bg-blue-950 py-1 px-4 rounded-xl text-white hidden lg:inline-block">{tags[3]}</p>
                     <p className="bg-blue-950 py-1 px-4 rounded-xl text-white hidden lg:inline-block">{tags[4]}</p>
                     <p className="bg-blue-950 py-1 px-4 rounded-xl text-white hidden lg:inline-block">{tags[5]}</p>

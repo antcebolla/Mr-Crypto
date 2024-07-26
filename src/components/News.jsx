@@ -39,7 +39,7 @@ function News() {
     return (
       <>
         <section className="min-h-screen min-w-full flex justify-center items-center flex-col mb-7" id="news">
-        <h1 className="text-white font-Roboto-slab text-5xl my-7">CryptoNews</h1>
+        <h1 className="text-white font-Roboto-slab sm:text-5xl text-3xl my-7 max-w-[100vw]">CryptoNews</h1>
         <div className="h-[600px] w-[90%] bg-gray-900 rounded-xl CurrenciesCont font-Roboto-slab overflow-auto flex  flex-col p-7">
             {
                 news.map((el, index)=>{
