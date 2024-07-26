@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import NewsCard from "./NewsCard"
-import { mock } from "../../mocks/newsMock"
 
 function News() {
     const [news, setNews] = useState([])
