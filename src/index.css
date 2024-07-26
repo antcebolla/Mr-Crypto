@@ -10,3 +10,6 @@
 }
 
 
+.CurrenciesCont::-webkit-scrollbar{
+  opacity: 0;
+}
