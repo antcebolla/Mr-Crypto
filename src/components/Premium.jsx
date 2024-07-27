@@ -23,7 +23,7 @@ function Premium() {
                 </div>
             </div>
             <div className="h-[100%] w-full sm:w-[45%] flex items-center justify-center relative overflow-hidden">
-                <img src="../../images/wallet.png" className="w-[29rem] absolute animated" />
+                <img src="/wallet.png" className="w-[29rem] absolute animated" />
             </div>
         </div>
         </div>

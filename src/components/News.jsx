@@ -20,7 +20,6 @@ function News() {
         if(response.status === 200){
           const data = await response.json()
             
-          console.log(data.result)
           setNews(data.result)
         }
         else{
